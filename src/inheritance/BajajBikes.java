@@ -1,4 +1,4 @@
-package InheritanceExamples;
+package inheritance;
 
 public class BajajBikes {
 

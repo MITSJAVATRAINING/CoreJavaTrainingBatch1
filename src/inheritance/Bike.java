@@ -1,4 +1,4 @@
-package InheritanceExamples;
+package inheritance;
 
 //extends siginify "is-a"
 // implements signify "has-a"

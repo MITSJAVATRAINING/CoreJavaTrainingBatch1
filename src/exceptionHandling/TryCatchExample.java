@@ -14,5 +14,6 @@ public class TryCatchExample {
 	 } catch(InputMismatchException e) {
 		 System.out.println(e);
 	 }
+	 System.out.println("In here");
 	}
 }

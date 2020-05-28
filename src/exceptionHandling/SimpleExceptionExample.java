@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 
 public class SimpleExceptionExample {
 	
-	public static void main(String args[]) {
+	public static void main(String args[]) throws FileNotFoundException {
 		int a, b = 10, c =0;
 		//int d = Integer.parseInt(null);
 		a = b/c;
@@ -13,6 +13,6 @@ public class SimpleExceptionExample {
 		
 		
 		
-//		FileInputStream fileInputStream = new FileInputStream("D:/abc.txt");
+	FileInputStream fileInputStream = new FileInputStream("D:/abc.txt");
 	}
 }
