@@ -4,16 +4,16 @@ import java.util.InputMismatchException;
 
 public class TryCatchExample {
 	
-	public static void main(String args[]) {
+	public static void main(String args[]) throws CustomException {
 	 try {
 			int a= 10, b = 0, c;
 			c = a/b;
 			System.out.println("value of c" + c);
-	 } catch(ArithmeticException exception) {
-		 System.out.println(exception);
-	 } catch(InputMismatchException e) {
-		 System.out.println(e);
-	 }
+	 } catch(ArithmeticException | NumberFormatException exception) {
+		 exception.printStackTrace();
+	 } 
 	 System.out.println("In here");
+	 
+	 throw new CustomException(" shaleen is calling Custom exception class");
 	}
 }
