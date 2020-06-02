@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class CustomException extends Exception  {
 	String message;
 	CustomException(String message) {
-		ArrayList list = new ArrayList<>(); 
+		super(message);
 	}
 	
     public String toString() { 
